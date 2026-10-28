@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "578537557084",
+    "firebase_url": "https://safewalk-857eb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "safewalk-857eb",
+    "storage_bucket": "safewalk-857eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578537557084:android:891dde875b12b628f42a99",
+        "android_client_info": {
+          "package_name": "com.safewalk.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJCsjXBQuu9WD0xf9GkEVQXlVIVqOOZLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

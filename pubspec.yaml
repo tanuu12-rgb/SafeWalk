@@ -1,0 +1,51 @@
+name: safewalk
+description: "SafeWalk - Women Safety Prototype Mobile App with Safe-Walk Dead-Man's Switch Timer"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Services
+  firebase_core: ^3.10.0
+  firebase_auth: ^5.3.4
+  firebase_database: ^11.1.4
+
+  # Location & Permissions
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+
+  # Local File System Storage (JSON persistence)
+  path_provider: ^2.1.4
+
+  # Emergency SMS & Phone Call Launcher
+  url_launcher: ^6.3.0
+
+  # Local Notifications for Grace Period
+  flutter_local_notifications: ^18.0.1
+
+  # Accelerometer / Shake Detection
+  sensors_plus: ^6.1.0
+
+  # Data Visualization (Lab Chart requirement)
+  fl_chart: ^0.69.0
+
+  # Formatting & Utilities
+  intl: ^0.19.0
+
+  # Icons & Styling
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
